@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+    {% block body_block %}
+    <h1>WELCOME TO INDEX PAGE</h1>
+    <h2>THIS INDEX.HTML PAGE SHOWING!</h2>
+    <h1>{{ name|cut:"worl" }}</h1>
+    <h1>{{ number|add:"89" }}</h1>
+    {% endblock %}
